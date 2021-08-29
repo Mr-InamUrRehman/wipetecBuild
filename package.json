@@ -1,11 +1,11 @@
 {
-  "name": "wipetec",
+  "name": "ranklogo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 7000",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start -H 0.0.0.0 -P $PORT"
   },
   "dependencies": {
     "@fancyapps/ui": "^4.0.0-beta.0",
@@ -22,4 +22,5 @@
   "devDependencies": {
     "compression-webpack-plugin": "^8.0.1"
   }
+  
 }
