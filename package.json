@@ -22,5 +22,4 @@
   "devDependencies": {
     "compression-webpack-plugin": "^8.0.1"
   }
-  
 }
